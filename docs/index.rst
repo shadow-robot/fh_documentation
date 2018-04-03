@@ -11,13 +11,13 @@ My Documentation
 Hello, this is a test
 
 
-## Overview
+Overview
 
 This is the starting point for the Agile Grasper Documentation
 
 <img src="https://www.shadowrobot.com/wp-content/uploads/sgs1_crop.jpg" alt="Drawing" style="width: 50%;"/>
 
-## Getting Started
+Getting Started
 
 If you are unfamiliar with ROS, it is highly recommended that you read the [ROS Tutorials](http://www.ros.org/wiki/ROS/Tutorials) 
 If you are unfamiliar with the terminal on Linux, you should look [here](https://askubuntu.com/questions/183775/how-do-i-open-a-terminal)
