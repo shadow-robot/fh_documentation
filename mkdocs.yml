@@ -7,5 +7,5 @@ theme: readthedocs
 pages:
 
 - User Documentation:
-    - 'Introduction to Agile Grasper': 'docs/setting_up_the_grasper.md'
-    - 'Optoforce': 'docs/optoforce/README.md'
+    - 'Introduction to Agile Grasper': 'setting_up_the_grasper.md'
+    - 'Optoforce': 'optoforce/README.md'
