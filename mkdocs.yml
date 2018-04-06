@@ -7,6 +7,9 @@ theme: readthedocs
 pages:
 - Home: index.md
 - User Documentation:
-    - 'Introduction to Agile Grasper': 'introduction.md'
-    - 'Setting up the grasper': 'setting_up_the_grasper.md'
-    - 'Optoforce': 'optoforce/README.md'
+    - 'Setting up the grasper': 'user_guide/setting_up_the_grasper.md'
+    - 'Getting started': 'user_guide/getting_started.md'
+    - 'Mechanical Description of the Grasper': 'user_guide/mechanical_description.md'
+    - 'Maintaining the Grasper': 'user_guide/maintaining_grasper.md'
+    - 'Peripherals': 'user_guide/peripherals.md'
+    - 'FAQ': 'user_guide/FAQ.md'
