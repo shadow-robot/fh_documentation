@@ -1,1 +1,1 @@
-../../documentation/docs/index.md
+../../documentation/optoforce/README.md
