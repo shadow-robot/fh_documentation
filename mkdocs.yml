@@ -1,0 +1,12 @@
+ 
+site_name: Agile Grasper Documentation	
+repo_url: https://github.com/beatrizleon/documentation	
+		
+copyright: "Copyright © 2018 Shadow Robot Company"	
+theme: readthedocs
+
+pages:
+
+- User Documentation:
+    - 'Introduction to Agile Grasper': 'docs/setting_up_the_grasper.md'
+    - 'Optoforce': 'docs/optoforce/README.md'
