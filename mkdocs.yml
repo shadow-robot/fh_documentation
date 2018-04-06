@@ -5,7 +5,8 @@ copyright: "Copyright © 2018 Shadow Robot Company"
 theme: readthedocs
 
 pages:
-
+- Home: index.md
 - User Documentation:
-    - 'Introduction to Agile Grasper': 'setting_up_the_grasper.md'
+    - 'Introduction to Agile Grasper': 'introduction.md'
+    - 'Setting up the grasper': 'setting_up_the_grasper.md'
     - 'Optoforce': 'optoforce/README.md'
