@@ -10,21 +10,22 @@ Shadow software is deployed using Docker. Docker is a container framework where 
 
 We have created a one-liner that is able to install Docker, download the image and create a new container for you. It will also create a desktop icon to start the container and launch the hand. To use it, you first need to have a PC with Ubuntu installed on it (preferable version 16.04) then follow these steps: 
 
-1. Check your Grasper interface ID
 
-   Before setting up the docker container, the EtherCAT interface ID for the Grasper needs to be discovered. In order to do so, after plugging the Grasper’s ethernet cable into your machine and powering it up, please run
+#### Check your Grasper interface ID
 
-   ```bash
-   $ sudo dmesg
-   ```
+Before setting up the docker container, the EtherCAT interface ID for the Grasper needs to be discovered. In order to do so, after plugging the Grasper’s ethernet cable into your machine and powering it up, please run
 
-   command in the console. At the bottom, there will be information similar to the one below:
+```bash
+$ sudo dmesg
+```
+
+command in the console. At the bottom, there will be information similar to the one below:
    
-   ```bash
-   [490.757853] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s25: link becomes ready
-   ```
+```bash
+[490.757853] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s25: link becomes ready
+```
 
-   In the above example, ‘enp0s25’ is the interface ID that is needed.
+In the above example, ‘enp0s25’ is the interface ID that is needed.
 
 2. Get a docker ID
 
