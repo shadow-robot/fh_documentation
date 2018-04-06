@@ -1,8 +1,7 @@
- 
-site_name: Agile Grasper Documentation	
-repo_url: https://github.com/beatrizleon/documentation	
+site_name: Agile Grasper Documentation
+repo_url: https://github.com/beatrizleon/documentation
 		
-copyright: "Copyright © 2018 Shadow Robot Company"	
+copyright: "Copyright © 2018 Shadow Robot Company"
 theme: readthedocs
 
 pages:
