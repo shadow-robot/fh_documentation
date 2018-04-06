@@ -27,28 +27,28 @@ command in the console. At the bottom, there will be information similar to the 
 
 In the above example, ‘enp0s25’ is the interface ID that is needed.
 
-2. Get a docker ID
+#### Get a docker ID
 
-   You need to create a Docker ID here (if you do not have one already): [https://hub.docker.com/](https://hub.docker.com/)
+You need to create a Docker ID here (if you do not have one already): [https://hub.docker.com/](https://hub.docker.com/)
 
-   Then send an email with your ID to grasper@shadowrobot.com so we can grant you permission to pull the image.
+Then send an email with your ID to grasper@shadowrobot.com so we can grant you permission to pull the image.
 
-3. Run the one-liner:
+#### Run the one-liner:
 
-   The one-liner will install Docker, pull the image from Docker Hub, and create and run a container with the parameters specified. In order to use it, use the following command:
+The one-liner will install Docker, pull the image from Docker Hub, and create and run a container with the parameters specified. In order to use it, use the following command:
 
-   ```bash
-   bash <(curl -Ls http://bit.do/launch-sh) -i shadowrobot/agile-grasper:kinetic-release -n agile-grasper -sn Grasper_Launcher -e [EtherCAT interface ID]
-   ```
-   
-   You will need to specify the EtherCAT interface ID that you found in the previous step. You can also add -r true in case you want to reinstall the docker image and container. It will prompt you for your Docker username and password before pulling the image. When it finishes it will show:
+```bash
+bash <(curl -Ls http://bit.do/launch-sh) -i shadowrobot/agile-grasper:kinetic-release -n agile-grasper -sn Grasper_Launcher -e [EtherCAT interface ID]
+```
 
-   ```bash
-    Operation completed
-   ```
-   and it will create a desktop icon on your desktop that you can double-click to launch the Grasper. It will look like this:
-   
-   ![desktop_icon](../img/desktop_icon.png)
+You will need to specify the EtherCAT interface ID that you found in the previous step. You can also add -r true in case you want to reinstall the docker image and container. It will prompt you for your Docker username and password before pulling the image. When it finishes it will show:
+
+```bash
+Operation completed
+```
+and it will create a desktop icon on your desktop that you can double-click to launch the Grasper. It will look like this:
+
+![desktop_icon](../img/desktop_icon.png)
    
 ### Using a PC that Shadow provided
 In this case, the previous steps would have been performed by the Shadow team before, then the only thing to do to start the Grasper is to either double-click the desktop icon or to run the container using:
