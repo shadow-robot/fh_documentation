@@ -79,9 +79,9 @@ URL | Description | Method
 /select_grasp | Select a grasp state | POST
 
 ### Using a browser
-In order to use the API from your browser, please run the container and, in a host browser, type the following in the address bar: [localhost:8080](localhost:8080)
-There will be three tabs available:
+In order to use the API from your browser, please run the container and, in a host browser, type the following in the address bar: [localhost:8080](localhost:8080).
 
+There will be three tabs available:
 * **API Overview**: It provides useful instructions on how to use the RESTful API
 * **Grasps available**: It checks the grasp database and provides information on the available grasps that are currently stored
 * **API**: It provides a graphical interface for controlling the grasper.

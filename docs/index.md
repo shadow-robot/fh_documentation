@@ -1,4 +1,4 @@
-<img src="https://www.shadowrobot.com/wp-content/uploads/copy-Shadow-Logo.png" alt="Drawing" style="width: 10%;" align="right"/>
+<img src="https://www.shadowrobot.com/wp-content/uploads/copy-Shadow-Logo.png" alt="Drawing" style="width: 30%;" align="right"/>
 
 
 
