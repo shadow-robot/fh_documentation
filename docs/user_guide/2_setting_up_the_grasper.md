@@ -3,7 +3,7 @@
 
 Item | Description
 --- | --- 
-Shadow Agile Grasper | Grasper with 3 Fingers, 9 DoF
+Shadow Grasper-9° | Grasper with 3 Fingers, 9 DoF
 PSU for Grasper | 24v Power Supply
 Kettle Lead | To connect the power supply to mains
 Power Cable | 3-pin Large Lemo connector
