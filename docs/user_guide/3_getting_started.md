@@ -53,7 +53,7 @@ The icon that launches the Grasper looks like this:
    
 And for saving the logs:
 
-![log_icon](../img/log_icon.png =100x100)
+![log_icon](../img/log_icon.png)
 
 ### Using a PC that Shadow provided
 In this case, the previous steps would have been performed by the Shadow team before, then the only thing to do to start the Grasper is to either double-click the desktop icon or to run the container using:
