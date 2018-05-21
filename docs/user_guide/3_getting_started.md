@@ -38,7 +38,7 @@ Then send an email with your ID to grasper@shadowrobot.com so we can grant you p
 The one-liner will install Docker, pull the image from Docker Hub, and create and run a container with the parameters specified. In order to use it, use the following command:
 
 ```bash
-bash <(curl -Ls http://bit.do/launch-sh) -i shadowrobot/agile-grasper:kinetic-release -n agile-grasper -sn Grasper_Launcher -e [EtherCAT interface ID]
+bash <(curl -Ls http://bit.do/launch-sh) -i shadowrobot/flexible-hand:kinetic-release -n modular-grasper -sn Grasper_Launcher -e [EtherCAT interface ID]
 ```
 
 You will need to specify the EtherCAT interface ID that you found in the previous step. You can also add -r true in case you want to reinstall the docker image and container. It will prompt you for your Docker username and password before pulling the image. When it finishes it will show:
@@ -54,7 +54,7 @@ and it will create a desktop icon on your desktop that you can double-click to l
 In this case, the previous steps would have been performed by the Shadow team before, then the only thing to do to start the Grasper is to either double-click the desktop icon or to run the container using:
 
 ```bash
-$ docker start agile_grasper
+$ docker start modular_grasper
 ```
 
 You can check the currently available containers using:
@@ -119,7 +119,7 @@ response = urllib2.urlopen(req, json.dumps(grasp_cmd))
 ```
 
 ## Grasper Status
-The agile-grasper provides a graphical interface for monitoring the robot state using diagnostic messages. In order to use it, after launching the Grasper, run the following command in a separate terminal:
+The modular-grasper provides a graphical interface for monitoring the robot state using diagnostic messages. In order to use it, after launching the Grasper, run the following command in a separate terminal:
 
 ```bash
 $ rqt

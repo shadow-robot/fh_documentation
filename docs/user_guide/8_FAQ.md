@@ -32,7 +32,7 @@ A list of common issues and how to resolve them.
 
 **I am getting following error when trying to pull the image:**
 ```bash
-Error response from daemon: pull access denied for shadowrobot/agile-grasper:kinetic-release, repository does not exist or may require 'docker login'
+Error response from daemon: pull access denied for shadowrobot/flexible-hand:kinetic-release, repository does not exist or may require 'docker login'
 ```
 
 Make sure that you are login in docker on your host machine using:
