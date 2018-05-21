@@ -1,2 +1,2 @@
-# Shadow Agile Grasper Documentation
+# Shadow Modular Grasper Documentation
 
