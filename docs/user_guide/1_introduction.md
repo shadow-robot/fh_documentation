@@ -45,7 +45,7 @@ The Shadow Agile Grasper is an advanced solution for grasping and handling a wid
   * Over temperature protection
   * Inherent compliance via Series Elastic Actuator
   * Patented chain configuration protects internal drive train
-  * Mounting plate to attach to standard robot arms
-  * Grasping Library with open APIs (Python/ROS/REST)
-  * Bespoke fingertips can easily be redesigned to accommodate different environments
-  * OptoForce tactile sensing in fingertips (option)
+* Mounting plate to attach to standard robot arms
+* Grasping Library with open APIs (Python/ROS/REST)
+* Bespoke fingertips can easily be redesigned to accommodate different environments
+* OptoForce tactile sensing in fingertips (option)
