@@ -35,7 +35,7 @@ A list of common issues and how to resolve them.
 Error response from daemon: pull access denied for shadowrobot/flexible-hand:kinetic-release, repository does not exist or may require 'docker login'
 ```
 
-Make sure that you are login in docker on your host machine using:
+Make sure that you are logged in to docker on your host machine using:
 ```bash
 $ docker login
 ```
