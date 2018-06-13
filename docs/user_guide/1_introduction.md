@@ -23,7 +23,7 @@ The Shadow Agile Grasper is an advanced solution for grasping and handling a wid
 
 * 9 Degrees of Freedom (DoF) 
 * 3 Fingers  
-* 3 Joints per Finger  
+* 3 Joints per Finger                                 ![Technical Specification 1](../img/tech_spec_1.png)            
   * Base rotation,	-45° to +45°
   * Proximal,	-80° to +60°
   * Distal,		-60° to +80°
@@ -34,7 +34,7 @@ The Shadow Agile Grasper is an advanced solution for grasping and handling a wid
 * 2 kg Payload (using power grasp) 
 * 20 N intermittent force per fingertip, 10 N continuous
 * 260 mm maximum span
-* 1 kHz Position Control Loop , with 0.02° position sensing resolution
+* 1 kHz Position Control Loop , with 0.02° position sensing resolution  ![Technical Specification 2](../img/tech_spec_2.png)
 * 1.39 mNm resolution direct Torque sensing at each joint
 * 10 kHz onboard Torque Control Loop 
 * 0.5 second full range open/close speed
@@ -49,3 +49,5 @@ The Shadow Agile Grasper is an advanced solution for grasping and handling a wid
 * Grasping Library with open APIs (Python/ROS/REST)
 * Bespoke fingertips can easily be redesigned to accommodate different environments
 * OptoForce tactile sensing in fingertips (option)
+
+![Technical Specification 3](../img/tech_spec_3.png)
