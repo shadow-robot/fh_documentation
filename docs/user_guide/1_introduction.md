@@ -34,7 +34,7 @@ The Shadow Agile Grasper is an advanced solution for grasping and handling a wid
 * 2 kg Payload (using power grasp) 
 * 20 N intermittent force per fingertip, 10 N continuous
 * 260 mm maximum span
-* 1 kHz Position Control Loop , with 0.02° position sensing resolution  ![Technical Specification 2](../img/tech_spec_2.png)
+* 1 kHz Position Control Loop , with 0.02° position sensing resolution  <img align="right" src="../img/tech_spec_2.png" alt="Technical Specification 2">
 * 1.39 mNm resolution direct Torque sensing at each joint
 * 10 kHz onboard Torque Control Loop 
 * 0.5 second full range open/close speed
