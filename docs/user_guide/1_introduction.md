@@ -21,7 +21,7 @@ ROS | Robot Operating System.
 
 The Shadow Agile Grasper is an advanced solution for grasping and handling a wide range of objects.
 
-* 9 Degrees of Freedom (DoF) <img align="right" src="../img/tech_spec_1.png" alt="Technical Specification 1">
+* 9 Degrees of Freedom (DoF) <p align="right">![Technical Specification 1](../img/tech_spec_1.png)</p>
 * 3 Fingers  
 * 3 Joints per Finger          
   * Base rotation,	-45° to +45°
