@@ -21,9 +21,9 @@ ROS | Robot Operating System.
 
 The Shadow Agile Grasper is an advanced solution for grasping and handling a wide range of objects.
 
-* 9 Degrees of Freedom (DoF) 
+* 9 Degrees of Freedom (DoF) <img align="right" src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/F_SRC-1674_integrate_latest_changes/docs/img/tech_spec_1.png" alt="Technical Specification 1"> 
 * 3 Fingers  
-* 3 Joints per Finger          <img align="right" src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/F_SRC-1674_integrate_latest_changes/docs/img/tech_spec_1.png" alt="Technical Specification 1">
+* 3 Joints per Finger
   * Base rotation,	-45° to +45°
   * Proximal,	-80° to +60°
   * Distal,		-60° to +80°
@@ -36,9 +36,9 @@ The Shadow Agile Grasper is an advanced solution for grasping and handling a wid
 * 260 mm maximum span
 * 1 kHz Position Control Loop , with 0.02° position sensing resolution  
 * 1.39 mNm resolution direct Torque sensing at each joint
-* 10 kHz onboard Torque Control Loop 
+* 10 kHz onboard Torque Control Loop <img align="right" src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/F_SRC-1674_integrate_latest_changes/docs/img/tech_spec_2.png" alt="Technical Specification 2">
 * 0.5 second full range open/close speed
-* ROS Compliant (Robot Operating System www.ros.org) <img align="right" src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/F_SRC-1674_integrate_latest_changes/docs/img/tech_spec_2.png" alt="Technical Specification 2">
+* ROS Compliant (Robot Operating System www.ros.org) 
 * EtherCAT® interface
 * 24V DC, 150W power envelope
 * Safety Systems:
