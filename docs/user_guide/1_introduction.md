@@ -19,7 +19,7 @@ ROS | Robot Operating System.
 
 ### Modular Grasper Technical Spec
 
-The Shadow Agile Grasper is an advanced solution for grasping and handling a wide range of objects.
+The Shadow Modular Grasper is an advanced solution for grasping and handling a wide range of objects.
 
 <ul>
 <li>9 Degrees of Freedom (DoF) <img align="right" src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/F_SRC-1674_integrate_latest_changes/docs/img/tech_spec_1.png" alt="Technical Specification 1" style="max-width:100%;"></li>
