@@ -8,7 +8,7 @@ Shadow software is deployed using Docker. Docker is a container framework where 
 ## Docker
 ### Installing the software on a new PC using the one-liner
 
-We have created a one-liner that is able to install Docker, download the image and create a new container for you. It will also create a desktop icon to start the container and launch the hand. To use it, you first need to have a PC with Ubuntu installed on it (preferable version 16.04) then follow these steps: 
+We have created a one-liner that is able to install Docker, download the image and create a new container for you. It will also create two desktop icons, one to start the container and launch the hand and another one to save the log files locally. To use it, you first need to have a PC with Ubuntu installed on it (preferable version 16.04) then follow these steps: 
 
 
 #### Check your Grasper interface ID
@@ -46,10 +46,15 @@ You will need to specify the EtherCAT interface ID that you found in the previou
 ```bash
 Operation completed
 ```
-and it will create a desktop icon on your desktop that you can double-click to launch the Grasper. It will look like this:
+and it will create two desktop icons on your desktop that you can double-click to launch the Grasper or save the log files from the active containers to your desktop.
+The icon that launches the Grasper looks like this:
 
 ![desktop_icon](../img/desktop_icon.png)
    
+And for saving the logs:
+
+![log_icon](../img/log_icon.png)
+
 ### Using a PC that Shadow provided
 In this case, the previous steps would have been performed by the Shadow team before, then the only thing to do to start the Grasper is to either double-click the desktop icon or to run the container using:
 
@@ -158,3 +163,5 @@ The **Shadow Hand** field contains different subsections for each finger connect
 
 ![grasper_status_7](../img/grasper_status_7.png)
 
+## Saving log files
+When running the one-liner, along with the icon that starts the Grasper, you will also notice a second icon named Save logs that is used to retrieve and copy all the available logs files from the active containers locally on your Desktop. This icon will create a folder that matches the active container's name and the next level will include the date and timestamp it was executed. When it starts, it will prompt you to enter a description of the logging event and will start coping the bag files, logs and configuration files from the container and then exit.
