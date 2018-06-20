@@ -7,6 +7,7 @@ theme: readthedocs
 pages:
 - Home: index.md
 - User Documentation:
+    - 'Introduction': 'user_guide/1_introduction.md'
     - 'Setting up the grasper': 'user_guide/2_setting_up_the_grasper.md'
     - 'Getting started': 'user_guide/3_getting_started.md'
     - 'Mechanical Description of the Grasper': 'user_guide/4_mechanical_description.md'
