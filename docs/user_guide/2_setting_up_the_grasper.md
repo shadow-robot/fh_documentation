@@ -26,6 +26,8 @@ Ethernet port. You have been supplied with a medium length Ethernet lead, but if
 
 ## Mounting the grasper
 
+Add more information.
+
 The Grasper will be supplied with a mounting plate to attach it to a robot arm. The default will be for any arm with a flange conforming to ISO 9409-1-50-4-M6, such as a UR10, but other arms can be accommodated upon request. To mount the Grasper onto a robot arm, begin by attaching the Grasper mounting plate to the arm using the appropriate screws (Arm shown below is a UR10 that requires 4 x M6 screws. )
 
 ![Mounting the grasper 1](../img/mounting_grasper1.png)
