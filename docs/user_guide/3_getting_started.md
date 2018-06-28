@@ -95,13 +95,13 @@ There will be four tabs available:
 
 <ul>
 <li><b>API Overview</b>: It provides useful instructions on how to use the RESTful API. 
-<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/F#SRC-1851_including_new_api_calls/docs/img/API_overview_screenshot.png" alt=""></li>
+<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/F%23SRC-1851_including_new_api_calls/docs/img/API_overview_screenshot.png" alt=""></li>
 <li><b>Grasps</b>: It checks the grasp database and provides information on the available grasps that are currently stored. You can import, export and delete grasps using the different buttons available.
-<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/F#SRC-1851_including_new_api_calls/docs/img/API_grasps_screenshot.png" alt=""></li>
+<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/F%23SRC-1851_including_new_api_calls/docs/img/API_grasps_screenshot.png" alt=""></li>
 <li><b>Execute grasps</b>: It provides a graphical interface for executing grasps on the grasper.
-<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/F#SRC-1851_including_new_api_calls/docs/img/API_execute_grasps_screenshot.png" alt=""></li>
+<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/F%23SRC-1851_including_new_api_calls/docs/img/API_execute_grasps_screenshot.png" alt=""></li>
 <li><b>Create grasp</b>: It provides a graphical interface for saving new grasps.
-<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/F#SRC-1851_including_new_api_calls/docs/img/API_create_grasp_screenshot.png" alt=""></li>
+<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/F%23SRC-1851_including_new_api_calls/docs/img/API_create_grasp_screenshot.png" alt=""></li>
 </ul>
 
 In order to perform a grasp, please follow these instructions:
