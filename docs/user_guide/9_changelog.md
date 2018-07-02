@@ -2,7 +2,7 @@
 
 **ROS Kinetic**
 
-* Version 0.2.28 (current kinetic-release)
+* Version 0.2.28 (current kinetic-release) *
 * Docker Image ID: a1bbbadceb8c
 * Docker Release date: 2 July 2018
 * Firmware version: Hand_H_v2_release_14.hex
