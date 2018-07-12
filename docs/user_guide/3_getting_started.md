@@ -89,7 +89,7 @@ URL | Description | Method
 /open_change_controllers | Open the change controllers rqt plugin | GET
 
 ### Using a browser
-In order to use the API from your browser, please run the container and, in a host browser, type the following in the address bar: [localhost:8080](http://localhost:8080/help).
+In order to use the API from your browser, please run the container and, in a host browser, type the following in the address bar: [http://localhost:8080/help](http://localhost:8080/help).
 
 There will be four tabs available:
 
