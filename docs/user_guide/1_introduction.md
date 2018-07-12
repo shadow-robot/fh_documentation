@@ -22,7 +22,7 @@ ROS | Robot Operating System.
 The Shadow Modular Grasper is an advanced solution for grasping and handling a wide range of objects.
 
 <ul>
-<li>9 Degrees of Freedom (DoF) <img align="right" src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/F_SRC-1674_integrate_latest_changes/docs/img/tech_spec_1.png" alt="Technical Specification 1" style="max-width:100%;"></li>
+<li>9 Degrees of Freedom (DoF) <img align="right" src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/master/docs/img/tech_spec_1.png" alt="Technical Specification 1" style="max-width:100%;"></li>
 <li>3 Fingers</li>
 <li>3 Joints per Finger
 <ul>
@@ -40,7 +40,7 @@ The Shadow Modular Grasper is an advanced solution for grasping and handling a w
 <li>260 mm maximum span</li>
 <li>1 kHz Position Control Loop , with 0.02° position sensing resolution</li>
 <li>1.39 mNm resolution direct Torque sensing at each joint</li>
-<li>10 kHz onboard Torque Control Loop <img align="right" src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/F_SRC-1674_integrate_latest_changes/docs/img/tech_spec_2.png" alt="Technical Specification 2" style="max-width:100%;"></li>
+<li>10 kHz onboard Torque Control Loop <img align="right" src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/master/docs/img/tech_spec_2.png" alt="Technical Specification 2" style="max-width:100%;"></li>
 <li>0.5 second full range open/close speed</li>
 <li>ROS Compliant (Robot Operating System <a href="http://www.ros.org" rel="nofollow">www.ros.org</a>)</li>
 <li>EtherCAT® interface</li>

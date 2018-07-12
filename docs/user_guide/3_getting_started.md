@@ -80,19 +80,29 @@ URL | Description | Method
 --- | --- | ---
 /joint_positions | Get the position for all joints of a robot | GET
 /joint_position?joint_name=name | Get position for a specific joint | GET
+/grasp | Download grasp definition(s) | GET
 /joint_positions | Set joint target positions | POST
 /select_grasp | Select a grasp state | POST
+/add_grasps | Import a grasp | POST
+/delete_grasps | Delete grasp(s) | POST
+/open_joint_sliders | Open the joint sliders rqt plugin | GET
+/open_change_controllers | Open the change controllers rqt plugin | GET
 
 ### Using a browser
-In order to use the API from your browser, please run the container and, in a host browser, type the following in the address bar: [localhost:8080](localhost:8080).
+In order to use the API from your browser, please run the container and, in a host browser, type the following in the address bar: [http://localhost:8080/help](http://localhost:8080/help).
 
-There will be three tabs available:
-* **API Overview**: It provides useful instructions on how to use the RESTful API
-* **Grasps available**: It checks the grasp database and provides information on the available grasps that are currently stored
-* **API**: It provides a graphical interface for controlling the grasper.
-An example of how the API looks is shown in the following screenshot:
+There will be four tabs available:
 
-![desktop_icon](../img/restful_API.png)
+<ul>
+<li><b>API Overview</b>: It provides useful instructions on how to use the RESTful API. 
+<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/master/docs/img/API_overview_screenshot.png" alt=""></li>
+<li><b>Grasps</b>: It checks the grasp database and provides information on the available grasps that are currently stored. You can import, export and delete grasps using the different buttons available.
+<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/master/docs/img/API_grasps_screenshot.png" alt=""></li>
+<li><b>Execute grasps</b>: It provides a graphical interface for executing grasps on the grasper.
+<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/master/docs/img/API_execute_grasps_screenshot.png" alt=""></li>
+<li><b>Create grasp</b>: It provides a graphical interface for saving new grasps.
+<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/master/docs/img/API_create_grasp_screenshot.png" alt=""></li>
+</ul>
 
 In order to perform a grasp, please follow these instructions:
 
@@ -135,9 +145,11 @@ Then, in the top left corner select Plugins and from there, Robot Tools>Diagnost
 ![grasper_status_1](../img/grasper_status_1.png)
 
 When the Diagnostics Viewer is launched, you will be able to see the following three fields:
-* EtherCat
-* Realtime Control Loop
-* Shadow Hand
+<ul>
+<li>EtherCat</li>
+<li>Realtime Control Loop</li>
+<li>Shadow Hand</li>
+</ul>
 
 ![grasper_status_2](../img/grasper_status_2.png)
 
