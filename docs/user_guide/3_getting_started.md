@@ -59,7 +59,7 @@ And for saving the logs:
 In this case, the previous steps would have been performed by the Shadow team before, then the only thing to do to start the Grasper is to either double-click the desktop icon or to run the container using:
 
 ```bash
-$ docker start modular_grasper
+$ docker start modular-grasper
 ```
 
 You can check the currently available containers using:
