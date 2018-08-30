@@ -38,7 +38,7 @@ Then send an email with your ID to grasper@shadowrobot.com so we can grant you p
 The one-liner will install Docker, pull the image from Docker Hub, and create and run a container with the parameters specified. In order to use it, use the following command:
 
 ```bash
-bash <(curl -Ls http://bit.do/launch-sh) -i shadowrobot/flexible-hand:kinetic-release -n modular-grasper -sn Grasper_Launcher -e [EtherCAT interface ID]
+bash <(curl -Ls bit.ly/launch-sh) -i shadowrobot/flexible-hand:kinetic-release -n modular-grasper -sn Grasper_Launcher -e [EtherCAT interface ID]
 ```
 
 You will need to specify the EtherCAT interface ID that you found in the previous step. You can also add -r true in case you want to reinstall the docker image and container. It will prompt you for your Docker username and password before pulling the image. When it finishes it will show:
