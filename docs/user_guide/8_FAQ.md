@@ -104,3 +104,5 @@ When the system boots, test that the hand works. If it works fine then the last 
 sudo apt-get purge linux-image-4.15.0-33-generic
 ```
 Then launch Software and Updates application and remove the Ticks from the option boxes as shown below:
+
+![disabling_updates](../img/disabling_updates.png)
