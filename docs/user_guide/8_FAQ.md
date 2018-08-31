@@ -78,3 +78,31 @@ Check that the name of the grasp is correct and that the grasp is available in t
 ```bash
 $ curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://0.0.0.0:8080/grasps_available
 ```
+
+**I am getting the following error when launching the driver:**
+```bash
+low_level_txandrx:failed 10 times: Giving up
+[ERROR]: Error sending counter frame
+[ERROR]: Something went wrong while scanning network
+[INFO]: EtherCAT_AL:: Can't init network
+[FATAL]: Unable to locate any slaves
+```
+A recent Ubuntu kernel release (**4.15.0-33-generic #36~16.04.1-Ubuntu**) affected the communication between the computer and our hands. We are currently investigating this issue but, in the meantime to keep working with our hands, you can downgrade to the previous kernel easily by following the instructions below (only if you are affected by this bug):
+
+* Check what kernel do you have running the following command:
+  ```bash
+  uname -a
+  ```
+  If it is the same as mentioned above then you probably will have problems connecting with our hand. Follow the next steps to revert the kernel to an older version.
+* Reboot your computer
+* Keep holding down the Shift Key until you see the Grub menu - If not restart the computer and try again
+* Navigate to the Advanced options and select to boot with an older kernel. For example: 4.15.0-32-generic #35~16.04.1-Ubuntu but it might be different on your computer, just select the one before the latest that causes the problem.
+* Select this older kernel and press enter
+
+When the system boots, test that the hand works. If it works fine then the last step is to remove the buggy kernel from your system otherwise it will get used on next system boot. So before you restart or shutdown the computer make sure you delete the buggy kernel: 
+```bash
+sudo apt-get purge linux-image-4.15.0-33-generic
+```
+Then launch Software and Updates application and remove the Ticks from the option boxes as shown below:
+
+![disabling_updates](../img/disabling_updates.png)
