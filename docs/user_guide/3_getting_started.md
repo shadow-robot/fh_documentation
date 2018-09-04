@@ -95,7 +95,6 @@ There will be five tabs available:
 
 <ul>
 <li><b>API Overview</b>: It provides useful instructions on how to use the RESTful API.
-<br>
 <img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/Version-0.0.3/docs/img/api_overview.png" alt=""></li>
 <li><b>Grasps</b>: It checks the grasp database and provides information on the available grasps that are currently stored. You can import, export and delete grasps using the different buttons available.
 <img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/Version-0.0.3/docs/img/api_grasps.png" alt=""></li>
