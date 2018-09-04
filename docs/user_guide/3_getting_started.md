@@ -91,17 +91,19 @@ URL | Description | Method
 ### Using a browser
 In order to use the API from your browser, please run the container and, in a host browser, type the following in the address bar: [http://localhost:8080/help](http://localhost:8080/help).
 
-There will be four tabs available:
+There will be five tabs available:
 
 <ul>
 <li><b>API Overview</b>: It provides useful instructions on how to use the RESTful API. 
-<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/master/docs/img/API_overview_screenshot.png" alt=""></li>
+<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/Version-0.0.3/docs/img/api_overview.png" alt=""></li>
 <li><b>Grasps</b>: It checks the grasp database and provides information on the available grasps that are currently stored. You can import, export and delete grasps using the different buttons available.
-<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/master/docs/img/API_grasps_screenshot.png" alt=""></li>
+<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/Version-0.0.3/docs/img/api_grasps.png" alt=""></li>
 <li><b>Execute grasps</b>: It provides a graphical interface for executing grasps on the grasper.
-<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/master/docs/img/API_execute_grasps_screenshot.png" alt=""></li>
-<li><b>Create grasp</b>: It provides a graphical interface for saving new grasps.
-<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/master/docs/img/API_create_grasp_screenshot.png" alt=""></li>
+<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/Version-0.0.3/docs/img/api_execute_grasps.png" alt=""></li>
+<li><b>Grasp editor</b>: It provides a graphical interface for creating, changing, saving and visualizing grasps.
+<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/Version-0.0.3/docs/img/api_grasp_editor.png" alt=""></li>
+<li><b>Demos</b>: It provides a graphical interface for running pre-programmed demos of Shadow Robot hands.
+<img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/Version-0.0.3/docs/img/api_demos.png" alt=""></li>
 </ul>
 
 In order to perform a grasp, please follow these instructions:
