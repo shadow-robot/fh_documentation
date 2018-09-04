@@ -94,15 +94,16 @@ In order to use the API from your browser, please run the container and, in a ho
 There will be five tabs available:
 
 <ul>
-<li><b>API Overview</b>: It provides useful instructions on how to use the RESTful API.<br>
+<li><b>API Overview</b>: It provides useful instructions on how to use the RESTful API.
+<br>
 <img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/Version-0.0.3/docs/img/api_overview.png" alt=""></li>
-<li><b>Grasps</b>: It checks the grasp database and provides information on the available grasps that are currently stored. You can import, export and delete grasps using the different buttons available.<br>
+<li><b>Grasps</b>: It checks the grasp database and provides information on the available grasps that are currently stored. You can import, export and delete grasps using the different buttons available.
 <img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/Version-0.0.3/docs/img/api_grasps.png" alt=""></li>
-<li><b>Execute grasps</b>: It provides a graphical interface for executing grasps on the grasper.<br>
+<li><b>Execute grasps</b>: It provides a graphical interface for executing grasps on the grasper.
 <img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/Version-0.0.3/docs/img/api_execute_grasps.png" alt=""></li>
-<li><b>Grasp editor</b>: It provides a graphical interface for creating, changing, saving and visualizing grasps.<br>
+<li><b>Grasp editor</b>: It provides a graphical interface for creating, changing, saving and visualizing grasps.
 <img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/Version-0.0.3/docs/img/api_grasp_editor.png" alt=""></li>
-<li><b>Demos</b>: It provides a graphical interface for running pre-programmed demos of Shadow Robot hands.<br>
+<li><b>Demos</b>: It provides a graphical interface for running pre-programmed demos of Shadow Robot hands.
 <img src="https://raw.githubusercontent.com/shadow-robot/fh_documentation/Version-0.0.3/docs/img/api_demos.png" alt=""></li>
 </ul>
 
