@@ -33,6 +33,16 @@ You need to create a Docker ID here (if you do not have one already): [https://h
 
 Then send an email with your ID to grasper@shadowrobot.com so we can grant you permission to pull the image.
 
+#### Get AWS login credentials
+
+If you want to upload technical logged data (ROS logs, backtraces, crash dumps etc.) to AWS server and notify the Shadow's software team to investigate your bug then you need to enable AWS uploading in the one-liner. In order to use this option you need to obtain a unique AWS key by emailing sysadmin@shadowrobot.com. To enable the AWS uploading you need to add the command line option ```-ck true``` to the one-liner as the example below:
+
+```bash
+bash <(curl -Ls bit.ly/launch-sh) -i shadowrobot/flexible-hand:kinetic-release -n modular-grasper -sn Grasper_Launcher -e [EtherCAT interface ID] -ck true
+```
+
+After executing the one-liner, it will prompt you to enter your AWS key and press enter to continue. Please copy and paste your key from the email you received by Shadow Robot. 
+
 #### Run the one-liner:
 
 The one-liner will install Docker, pull the image from Docker Hub, and create and run a container with the parameters specified. In order to use it, use the following command:
@@ -42,6 +52,18 @@ bash <(curl -Ls bit.ly/launch-sh) -i shadowrobot/flexible-hand:kinetic-release -
 ```
 
 You will need to specify the EtherCAT interface ID that you found in the previous step. You can also add -r true in case you want to reinstall the docker image and container. It will prompt you for your Docker username and password before pulling the image. When it finishes it will show:
+
+For example if your EtherCAT interface ID is ```enp0s25``` then run the following command:
+
+```bash
+bash <(curl -Ls bit.ly/launch-sh) -i shadowrobot/flexible-hand:kinetic-release -n modular-grasper -sn Grasper_Launcher -e enp0s25
+```
+
+And if you want to enable uploading LOGS to AWS server then run:
+
+```bash
+bash <(curl -Ls bit.ly/launch-sh) -i shadowrobot/flexible-hand:kinetic-release -n modular-grasper -sn Grasper_Launcher -e enp0s25 -ck true
+```
 
 ```bash
 Operation completed
@@ -177,5 +199,5 @@ The **Shadow Hand** field contains different subsections for each finger connect
 
 ![grasper_status_7](../img/grasper_status_7.png)
 
-## Saving log files
-When running the one-liner, along with the icon that starts the Grasper, you will also notice a second icon named Save logs that is used to retrieve and copy all the available logs files from the active containers locally on your Desktop. This icon will create a folder that matches the active container's name and the next level will include the date and timestamp it was executed. When it starts, it will prompt you if you want to continue, as by pressing yes it will close all active containers. If typed 'y' to continue, you will have to enter a description of the logging event and will start coping the bag files, logs and configuration files from the container and then exit. Otherwise, the window will close and no further action will happen.
+## Saving log files and uploading data to AWS server
+When running the one-liner, along with the icon that starts the Grasper, you will also notice a second icon named Save logs that is used to retrieve and copy all the available logs files from the active containers locally on your Desktop. This icon will create a folder that matches the active container's name and the next level will include the date and timestamp it was executed. When it starts, it will prompt you if you want to continue, as by pressing yes it will close all active containers. If typed 'y' to continue, you will have to enter a description of the logging event and will start coping the bag files, logs and configuration files from the container and then exit. Otherwise, the window will close and no further action will happen. If you provided an AWS key with the one-liner installation then the script will also upload your LOGS in compressed format to an AWS server and notify the Shadow's software team about the upload. This will allow the team to fully investigate your issue and provide support where needed. 
