@@ -5,6 +5,19 @@ If you are unfamiliar with the terminal on Linux, you should look [here](https:/
 
 Shadow software is deployed using Docker. Docker is a container framework where each container image is a lightweight, stand-alone, executable package that includes everything needed to run it. It is similar to a virtual machine but with much less overhead. Follow the instructions in the next section to get the latest Docker container of the grasper driver and interface up and running.
 
+## Hardware specifications
+
+In order to run our software and the ROS software stack you will need to meet some hardware requirements. 
+
+CPU: Intel i5 or above
+RAM: 4GB or above
+Hard Drive: Fast HDD or SSD (Laptop HDD are very slow)
+Graphics Card: Nvidia GPU (optional)
+LAN: A spare LAN port to connect the Hand (even with a USB to LAN adaptor)
+OS: Ubuntu 16.04 Kinetic (Active development) or 14.04 Indigo for older releases.
+
+The most important one is to have a fast HDD or an SSD.
+
 ## Docker
 ### Installing the software on a new PC using the one-liner
 
