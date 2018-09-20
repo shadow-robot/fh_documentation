@@ -5,9 +5,9 @@
 Features:
 
 * REST API new functionality:
-* Two new calls to open rqt plugins: Joint sliders and Change controllers
-* New calls and buttons to import, export and delete grasps from database
-* New tab with template to create new grasp
+ * Two new calls to open rqt plugins: Joint sliders and Change controllers
+ * New calls and buttons to import, export and delete grasps from database
+ * New tab with template to create new grasp
 * Refactored the grasp database to have all the functionality only available in sr_manipulation
 * AWS client is installed inside the Docker image (for uploading ROS logs and core dumps to AWS)
 * Python and C++ core dumps have been added to ROS logs and the upload to AWS
