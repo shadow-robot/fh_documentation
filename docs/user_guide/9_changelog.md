@@ -1,6 +1,6 @@
 ### ROS Kinetic
 
-#### Version 0.2.28 (current kinetic-release) 
+#### Version 0.2.43 (current kinetic-release) 
 
 Features:
 
