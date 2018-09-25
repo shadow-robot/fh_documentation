@@ -5,6 +5,19 @@ If you are unfamiliar with the terminal on Linux, you should look [here](https:/
 
 Shadow software is deployed using Docker. Docker is a container framework where each container image is a lightweight, stand-alone, executable package that includes everything needed to run it. It is similar to a virtual machine but with much less overhead. Follow the instructions in the next section to get the latest Docker container of the grasper driver and interface up and running.
 
+## Hardware specifications
+
+In order to run our software and the ROS software stack you will need to meet some hardware requirements. 
+
+CPU: Intel i5 or above
+RAM: 4GB or above
+Hard Drive: Fast HDD or SSD (Laptop HDD are very slow)
+Graphics Card: Nvidia GPU (optional)
+LAN: A spare LAN port to connect the Hand (even with a USB to LAN adaptor)
+OS: Ubuntu 18.04, Ubuntu 16.04 Kinetic (Active development) or 14.04 Indigo for older releases.
+
+The most important one is to have a fast HDD or an SSD.
+
 ## Docker
 ### Installing the software on a new PC using the one-liner
 
@@ -33,15 +46,39 @@ You need to create a Docker ID here (if you do not have one already): [https://h
 
 Then send an email with your ID to grasper@shadowrobot.com so we can grant you permission to pull the image.
 
+#### Get ROS login credentials
+
+If you want to upload technical logged data (ROS logs, backtraces, crash dumps etc.) to our server and notify the Shadow's software team to investigate your bug then you need to enable logs uploading in the one-liner. In order to use this option you need to obtain a unique upload key by emailing sysadmin@shadowrobot.com. To enable the logs uploading you need to add the command line option ```-ck true``` to the one-liner as the example below:
+
+```bash
+bash <(curl -Ls bit.ly/launch-sh) -i shadowrobot/flexible-hand:kinetic-release -n modular-grasper -sn Grasper_Launcher -e [EtherCAT interface ID] -ck true
+```
+
+After executing the one-liner, it will prompt you to enter your upload key and press enter to continue. Please copy and paste your key from the email you received by Shadow Robot. 
+
 #### Run the one-liner:
 
 The one-liner will install Docker, pull the image from Docker Hub, and create and run a container with the parameters specified. In order to use it, use the following command:
+
+**Please remember to replace [EtherCAT interface ID] with your Interface ID**
 
 ```bash
 bash <(curl -Ls bit.ly/launch-sh) -i shadowrobot/flexible-hand:kinetic-release -n modular-grasper -sn Grasper_Launcher -e [EtherCAT interface ID]
 ```
 
-You will need to specify the EtherCAT interface ID that you found in the previous step. You can also add -r true in case you want to reinstall the docker image and container. It will prompt you for your Docker username and password before pulling the image. When it finishes it will show:
+For example if your EtherCAT interface ID is ```enp0s25``` then run the following command:
+
+```bash
+bash <(curl -Ls bit.ly/launch-sh) -i shadowrobot/flexible-hand:kinetic-release -n modular-grasper -sn Grasper_Launcher -e enp0s25
+```
+
+You can also add -r true in case you want to reinstall the docker image and container. It will prompt you for your Docker username and password before pulling the image.
+
+And if you want to enable uploading LOGS to our server then run:
+
+```bash
+bash <(curl -Ls bit.ly/launch-sh) -i shadowrobot/flexible-hand:kinetic-release -n modular-grasper -sn Grasper_Launcher -e enp0s25 -ck true
+```
 
 ```bash
 Operation completed
@@ -177,5 +214,5 @@ The **Shadow Hand** field contains different subsections for each finger connect
 
 ![grasper_status_7](../img/grasper_status_7.png)
 
-## Saving log files
-When running the one-liner, along with the icon that starts the Grasper, you will also notice a second icon named Save logs that is used to retrieve and copy all the available logs files from the active containers locally on your Desktop. This icon will create a folder that matches the active container's name and the next level will include the date and timestamp it was executed. When it starts, it will prompt you if you want to continue, as by pressing yes it will close all active containers. If typed 'y' to continue, you will have to enter a description of the logging event and will start coping the bag files, logs and configuration files from the container and then exit. Otherwise, the window will close and no further action will happen.
+## Saving log files and uploading data to our server
+When running the one-liner, along with the icon that starts the Grasper, you will also notice a second icon named Save logs that is used to retrieve and copy all the available logs files from the active containers locally on your Desktop. This icon will create a folder that matches the active container's name and the next level will include the date and timestamp it was executed. When it starts, it will prompt you if you want to continue, as by pressing yes it will close all active containers. If typed 'y' to continue, you will have to enter a description of the logging event and will start coping the bag files, logs and configuration files from the container and then exit. Otherwise, the window will close and no further action will happen. If you provided an upload key with the one-liner installation then the script will also upload your LOGS in compressed format to our server and notify the Shadow's software team about the upload. This will allow the team to fully investigate your issue and provide support where needed. 
