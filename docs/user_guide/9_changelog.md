@@ -1,6 +1,5 @@
 ### ROS Kinetic
 
-
 #### Version 0.2.75 (current kinetic-release) 
 
 Features:
