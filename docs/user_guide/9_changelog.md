@@ -1,6 +1,24 @@
 ### ROS Kinetic
 
-#### Version 0.2.43 (current kinetic-release) 
+
+#### Version 0.2.75 (current kinetic-release) 
+
+Features:
+
+* Fixed bug "Test SRC-T32 Grasping Pipeline for flexible hand release fails"
+* Implement a proper way to setup the configuration of optoforce sensors for hand h
+* Add possibility to switch in RQT to Grasp Controller for Hand H
+* Modify Hand H/E release process to include debug symbols
+* Mujoco_ros repo cleanup
+* ROS log data warning
+* Improvements of the manipulation pipeline: Check the plan until place
+* Delete old logs when we exceed limit
+* Export robot states from mongo to python/yaml
+* Implement a proper way to setup the configuration of optoforce sensors for hand h
+* Add possibility to switch in RQT to Grasp Controller for Hand H
+* Modify Hand H/E release process to include debug symbols
+
+#### Version 0.2.43
 
 Features:
 
