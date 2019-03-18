@@ -14,8 +14,6 @@ Features:
 * Delete old logs when we exceed limit
 * Export robot states from mongo to python/yaml
 * Implement a proper way to setup the configuration of optoforce sensors for hand h
-* Add possibility to switch in RQT to Grasp Controller for Hand H
-* Modify Hand H/E release process to include debug symbols
 
 #### Version 0.2.43
 
