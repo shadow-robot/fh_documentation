@@ -13,7 +13,6 @@ Features:
 * Improvements of the manipulation pipeline: Check the plan until place
 * Delete old logs when we exceed limit
 * Export robot states from mongo to python/yaml
-* Implement a proper way to setup the configuration of optoforce sensors for hand h
 
 #### Version 0.2.43
 
