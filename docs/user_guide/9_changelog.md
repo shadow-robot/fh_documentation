@@ -1,12 +1,12 @@
 ### ROS Kinetic
 
-### Version 0.2.81
+#### Version 0.2.81
 
 Features:
 
 * Docker image now built in AWS
 
-### Version 0.2.76
+#### Version 0.2.76
 
 Features:
 
